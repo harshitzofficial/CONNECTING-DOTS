@@ -1,0 +1,179 @@
+PS C:\Users\Harshit\Desktop\connecting-dots> docker run --rm `
+>>   -v "${PWD}\input:/app/input" `
+>>   -v "${PWD}\output:/app/output" `
+>>   connecting-dots --mode both `
+>>   --persona "Product Manager" `
+>>
+2025-07-28 06:50:52,661 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+Downloading .gitattributes: 1.23kB [00:00, 4.42MB/s]
+Downloading config.json: 100%|██████████| 190/190 [00:00<00:00, 748kB/s]
+Downloading README.md: 10.5kB [00:00, 19.5MB/s]
+Downloading config.json: 100%|██████████| 612/612 [00:00<00:00, 2.53MB/s]
+Downloading (…)ce_transformers.json: 100%|██████████| 116/116 [00:00<00:00, 462kB/s]
+Downloading data_config.json: 39.3kB [00:00, 27.2MB/s]
+Downloading model.safetensors: 100%|██████████| 90.9M/90.9M [00:14<00:00, 6.36MB/s]
+Downloading model.onnx: 100%|██████████| 90.4M/90.4M [00:15<00:00, 6.01MB/s]
+Downloading model_O1.onnx: 100%|██████████| 90.4M/90.4M [00:21<00:00, 4.30MB/s]
+Downloading model_O2.onnx: 100%|██████████| 90.3M/90.3M [00:21<00:00, 4.20MB/s]
+Downloading model_O3.onnx: 100%|██████████| 90.3M/90.3M [00:16<00:00, 5.58MB/s]
+Downloading model_O4.onnx: 100%|██████████| 45.2M/45.2M [00:08<00:00, 5.65MB/s]
+Downloading model_qint8_arm64.onnx: 100%|██████████| 23.0M/23.0M [00:05<00:00, 3.87MB/s]
+Downloading model_qint8_arm64.onnx: 100%|██████████| 23.0M/23.0M [00:04<00:00, 5.37MB/s]
+Downloading model_qint8_arm64.onnx: 100%|██████████| 23.0M/23.0M [00:03<00:00, 5.79MB/s]
+Downloading model_quint8_avx2.onnx: 100%|██████████| 23.0M/23.0M [00:04<00:00, 5.33MB/s]
+Downloading openvino_model.bin: 100%|██████████| 90.3M/90.3M [00:20<00:00, 4.42MB/s]
+Downloading openvino_model.xml: 211kB [00:00, 82.4MB/s]
+Downloading (…)_qint8_quantized.bin: 100%|██████████| 22.9M/22.9M [00:04<00:00, 4.98MB/s]
+Downloading (…)_qint8_quantized.xml: 368kB [00:00, 35.0MB/s]
+Downloading pytorch_model.bin: 100%|██████████| 90.9M/90.9M [00:17<00:00, 5.08MB/s]
+Downloading (…)nce_bert_config.json: 100%|██████████| 53.0/53.0 [00:00<00:00, 281kB/s]
+Downloading (…)cial_tokens_map.json: 100%|██████████| 112/112 [00:00<00:00, 592kB/s]
+Downloading tokenizer.json: 466kB [00:00, 2.72MB/s]
+Downloading tokenizer_config.json: 100%|██████████| 350/350 [00:00<00:00, 1.07MB/s]
+Downloading train_script.py: 13.2kB [00:00, 7.49MB/s]
+Downloading vocab.txt: 232kB [00:00, 3.53MB/s]
+Downloading (…)nce_bert_config.json: 100%|██████████| 53.0/53.0 [00:00<00:00, 281kB/s]
+Downloading (…)cial_tokens_map.json: 100%|██████████| 112/112 [00:00<00:00, 592kB/s]
+Downloading tokenizer.json: 466kB [00:00, 2.72MB/s]
+Downloading modules.json: 100%|██████████| 349/349 [00:00<00:00, 735kB/s]
+2025-07-28 06:53:46,063 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+Downloading modules.json: 100%|██████████| 349/349 [00:00<00:00, 735kB/s]
+2025-07-28 06:53:46,063 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-07-28 06:53:46,065 - ranker - INFO - Initialized sentence transformer model
+Downloading modules.json: 100%|██████████| 349/349 [00:00<00:00, 735kB/s]
+2025-07-28 06:53:46,063 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-07-28 06:53:46,065 - ranker - INFO - Initialized sentence transformer model
+2025-07-28 06:53:46,066 - __main__ - INFO - Starting processing of all PDFs in /app/input
+2025-07-28 06:53:46,063 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-07-28 06:53:46,065 - ranker - INFO - Initialized sentence transformer model
+2025-07-28 06:53:46,066 - __main__ - INFO - Starting processing of all PDFs in /app/input
+2025-07-28 06:53:46,069 - __main__ - INFO - Found 1 PDF files
+2025-07-28 06:53:46,071 - __main__ - INFO - Processing Round 1A for sample.pdf
+2025-07-28 06:53:46,071 - __main__ - INFO - Processing Round 1A for sample.pdf
+2025-07-28 06:53:46,661 - outline - INFO - Extracted outline with 1012 headings
+2025-07-28 06:53:47,132 - __main__ - INFO - Round 1A completed for sample.pdf in 1.06s
+2025-07-28 06:53:47,154 - __main__ - INFO - Saved outline for sample.pdf
+2025-07-28 06:53:47,155 - __main__ - INFO - Processing persona query: Product Manager - Find UX best-practice sections
+2025-07-28 06:53:47,159 - __main__ - INFO - Processing Round 1B for 1 PDFs
+2025-07-28 06:53:47,669 - outline - INFO - Extracted outline with 1012 headings
+Batches: 100%|██████████| 32/32 [01:14<00:00,  2.33s/it]
+Batches: 100%|██████████| 1/1 [00:00<00:00, 32.81it/s]
+2025-07-28 06:55:05,466 - ranker - INFO - Ranked 1012 sections in 78.25s
+2025-07-28 06:55:05,470 - __main__ - INFO - Round 1B completed in 78.31s
+2025-07-28 06:55:05,471 - __main__ - WARNING - Processing exceeded 60s limit: 78.31s
+2025-07-28 06:55:05,477 - __main__ - INFO - Saved persona ranking results
+2025-07-28 06:55:05,483 - __main__ - INFO - Processing completed successfully
+PS C:\Users\Harshit\Desktop\connecting-dots>
+ *  History restored 
+
+PS C:\Users\Harshit\Desktop\connecting-dots> docker run --rm `
+>>   -v "${PWD}\input:/app/input" `
+>>   -v "${PWD}\output:/app/output" `
+>>   connecting-dots --mode both `
+>>   --persona "Investment Analyst" `
+>>   --job "Analyze revenue trends"
+>> 
+2025-07-28 06:58:28,676 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+Downloading .gitattributes: 1.23kB [00:00, 1.72MB/s]
+Downloading config.json: 100%|██████████| 190/190 [00:00<00:00, 610kB/s]
+Downloading README.md: 10.5kB [00:00, 32.3MB/s]
+Downloading config.json: 100%|██████████| 612/612 [00:00<00:00, 727kB/s]
+Downloading (…)ce_transformers.json: 100%|██████████| 116/116 [00:00<00:00, 687kB/s]
+Downloading data_config.json: 39.3kB [00:00, 3.60MB/s]
+Downloading model.safetensors: 100%|██████████| 90.9M/90.9M [00:20<00:00, 4.48MB/s]
+Downloading model.onnx: 100%|██████████| 90.4M/90.4M [00:16<00:00, 5.54MB/s]
+Downloading model_O1.onnx: 100%|██████████| 90.4M/90.4M [00:21<00:00, 4.17MB/s]
+Downloading model_O2.onnx: 100%|██████████| 90.3M/90.3M [00:14<00:00, 6.42MB/s]
+Downloading model_O3.onnx: 100%|██████████| 90.3M/90.3M [00:18<00:00, 4.96MB/s]
+Downloading model_O4.onnx: 100%|██████████| 45.2M/45.2M [00:09<00:00, 4.95MB/s]
+Downloading model_qint8_arm64.onnx: 100%|██████████| 23.0M/23.0M [00:04<00:00, 4.66MB/s]
+Downloading model_qint8_arm64.onnx: 100%|██████████| 23.0M/23.0M [00:04<00:00, 5.70MB/s]
+Downloading model_qint8_arm64.onnx: 100%|██████████| 23.0M/23.0M [00:03<00:00, 6.37MB/s]
+Downloading model_quint8_avx2.onnx: 100%|██████████| 23.0M/23.0M [00:02<00:00, 8.14MB/s]
+Downloading openvino_model.bin: 100%|██████████| 90.3M/90.3M [00:11<00:00, 7.97MB/s]
+Downloading openvino_model.xml: 211kB [00:00, 95.7MB/s]
+Downloading (…)_qint8_quantized.bin: 100%|██████████| 22.9M/22.9M [00:03<00:00, 6.46MB/s]
+Downloading (…)_qint8_quantized.xml: 368kB [00:00, 169MB/s]
+Downloading pytorch_model.bin: 100%|██████████| 90.9M/90.9M [00:12<00:00, 7.57MB/s]
+Downloading (…)nce_bert_config.json: 100%|██████████| 53.0/53.0 [00:00<00:00, 406kB/s]
+Downloading (…)cial_tokens_map.json: 100%|██████████| 112/112 [00:00<00:00, 666kB/s]
+Downloading tokenizer.json: 466kB [00:00, 3.95MB/s]
+Downloading tokenizer_config.json: 100%|██████████| 350/350 [00:00<00:00, 2.09MB/s]
+Downloading train_script.py: 13.2kB [00:00, 35.1MB/s]
+Downloading vocab.txt: 232kB [00:00, 3.69MB/s]
+Downloading modules.json: 100%|██████████| 349/349 [00:00<00:00, 1.92MB/s]
+2025-07-28 07:01:09,016 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-07-28 07:01:09,025 - ranker - INFO - Initialized sentence transformer model
+2025-07-28 07:01:09,028 - __main__ - INFO - Starting processing of all PDFs in /app/input
+2025-07-28 07:01:09,033 - __main__ - INFO - Found 1 PDF files
+2025-07-28 07:01:09,036 - __main__ - INFO - Processing Round 1A for sample.pdf
+2025-07-28 07:01:09,713 - outline - INFO - Extracted outline with 1012 headings
+2025-07-28 07:01:10,097 - __main__ - INFO - Round 1A completed for sample.pdf in 1.06s
+2025-07-28 07:01:10,118 - __main__ - INFO - Saved outline for sample.pdf
+2025-07-28 07:01:10,119 - __main__ - INFO - Processing persona query: Investment Analyst - Analyze revenue trends
+2025-07-28 07:01:10,125 - __main__ - INFO - Processing Round 1B for 1 PDFs
+2025-07-28 07:01:10,714 - outline - INFO - Extracted outline with 1012 headings
+Batches: 100%|██████████| 32/32 [01:25<00:00,  2.66s/it]
+Batches: 100%|██████████| 1/1 [00:00<00:00, 31.23it/s]
+2025-07-28 07:02:39,023 - ranker - INFO - Ranked 1012 sections in 88.83s
+2025-07-28 07:02:39,033 - __main__ - INFO - Round 1B completed in 88.91s
+2025-07-28 07:02:39,034 - __main__ - WARNING - Processing exceeded 60s limit: 88.91s
+2025-07-28 07:02:39,059 - __main__ - INFO - Saved persona ranking results
+2025-07-28 07:02:39,060 - __main__ - INFO - Processing completed successfully
+PS C:\Users\Harshit\Desktop\connecting-dots> docker run --rm `
+>>   -v "${PWD}\input:/app/input" `
+>>   -v "${PWD}\output:/app/output" `
+>>   connecting-dots --mode both `
+>>   --persona "Investment Analyst" `
+>>   --job "Analyze revenue trends"
+>>
+2025-07-28 07:04:04,627 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+Downloading .gitattributes: 1.23kB [00:00, 1.33MB/s]
+Downloading config.json: 100%|██████████| 190/190 [00:00<00:00, 1.01MB/s]
+Downloading README.md: 10.5kB [00:00, 3.46MB/s]
+Downloading config.json: 100%|██████████| 612/612 [00:00<00:00, 6.26MB/s]
+Downloading (…)ce_transformers.json: 100%|██████████| 116/116 [00:00<00:00, 360kB/s]
+Downloading data_config.json: 39.3kB [00:00, 21.6MB/s]
+Downloading model.safetensors: 100%|██████████| 90.9M/90.9M [00:21<00:00, 4.32MB/s]
+Downloading model.onnx: 100%|██████████| 90.4M/90.4M [00:12<00:00, 7.14MB/s]
+Downloading model_O1.onnx: 100%|██████████| 90.4M/90.4M [00:11<00:00, 7.82MB/s]
+Downloading model_O2.onnx: 100%|██████████| 90.3M/90.3M [00:12<00:00, 7.18MB/s]
+Downloading model_O3.onnx: 100%|██████████| 90.3M/90.3M [00:12<00:00, 7.41MB/s]
+Downloading model_O4.onnx: 100%|██████████| 45.2M/45.2M [00:06<00:00, 6.97MB/s]
+Downloading model_qint8_arm64.onnx: 100%|██████████| 23.0M/23.0M [00:03<00:00, 6.42MB/s]
+Downloading model_qint8_arm64.onnx: 100%|██████████| 23.0M/23.0M [00:03<00:00, 6.40MB/s]
+Downloading model_qint8_arm64.onnx: 100%|██████████| 23.0M/23.0M [00:03<00:00, 6.11MB/s]
+Downloading model_quint8_avx2.onnx: 100%|██████████| 23.0M/23.0M [00:02<00:00, 7.73MB/s]
+Downloading openvino_model.bin: 100%|██████████| 90.3M/90.3M [00:12<00:00, 6.95MB/s]
+Downloading openvino_model.xml: 211kB [00:00, 35.3MB/s]
+Downloading (…)_qint8_quantized.bin: 100%|██████████| 22.9M/22.9M [00:03<00:00, 7.41MB/s]
+Downloading (…)_qint8_quantized.xml: 368kB [00:00, 244MB/s]
+Downloading pytorch_model.bin: 100%|██████████| 90.9M/90.9M [00:10<00:00, 8.53MB/s]
+Downloading (…)nce_bert_config.json: 100%|██████████| 53.0/53.0 [00:00<00:00, 92.2kB/s]
+Downloading (…)cial_tokens_map.json: 100%|██████████| 112/112 [00:00<00:00, 580kB/s]
+Downloading tokenizer.json: 466kB [00:00, 1.53MB/s]
+Downloading tokenizer_config.json: 100%|██████████| 350/350 [00:00<00:00, 1.55MB/s]
+Downloading train_script.py: 13.2kB [00:00, 25.9MB/s]
+Downloading vocab.txt: 232kB [00:00, 512kB/s]
+Downloading modules.json: 100%|██████████| 349/349 [00:00<00:00, 3.29MB/s]
+2025-07-28 07:06:19,123 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-07-28 07:06:19,126 - ranker - INFO - Initialized sentence transformer model
+2025-07-28 07:06:19,127 - __main__ - INFO - Starting processing of all PDFs in /app/input
+2025-07-28 07:06:19,132 - __main__ - INFO - Found 1 PDF files
+2025-07-28 07:06:19,132 - __main__ - INFO - Processing Round 1A for sample.pdf
+2025-07-28 07:06:19,605 - outline - INFO - Extracted outline with 1012 headings
+2025-07-28 07:06:19,934 - __main__ - INFO - Round 1A completed for sample.pdf in 0.80s
+2025-07-28 07:06:19,950 - __main__ - INFO - Saved outline for sample.pdf
+2025-07-28 07:06:19,951 - __main__ - INFO - Processing persona query: Investment Analyst - Analyze revenue trends
+2025-07-28 07:06:19,953 - __main__ - INFO - Processing Round 1B for 1 PDFs
+2025-07-28 07:06:20,395 - outline - INFO - Extracted outline with 1012 headings
+Batches: 100%|██████████| 32/32 [01:19<00:00,  2.49s/it]
+Batches: 100%|██████████| 1/1 [00:00<00:00, 64.62it/s]
+2025-07-28 07:07:43,555 - ranker - INFO - Ranked 1012 sections in 83.54s
+2025-07-28 07:07:43,559 - __main__ - INFO - Round 1B completed in 83.61s
+2025-07-28 07:07:43,560 - __main__ - WARNING - Processing exceeded 60s limit: 83.61s
+2025-07-28 07:07:43,569 - __main__ - INFO - Saved persona ranking results
+2025-07-28 07:07:43,570 - __main__ - INFO - Processing completed successfully
+PS C:\Users\Harshit\Desktop\connecting-dots>
+
+
