@@ -368,16 +368,6 @@ numpy==1.24.3                 # Numerical operations
 - **Configurable**: Adjustable thresholds and parameters
 - **Scalable**: Multi-threaded processing support
 
-## 🤝 Contributing
-
-This solution is optimized for the Adobe India Hackathon 2025. For improvements:
-
-1. Fork the repository
-2. Create a feature branch
-3. Implement changes with tests
-4. Ensure hackathon compliance
-5. Submit a pull request
-
 
 ## 🏅 Acknowledgments
 
