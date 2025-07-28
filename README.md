@@ -1,6 +1,7 @@
 # Adobe "Connecting the Dots" Hackathon Solution
 **Intelligent Document Insight Engine for PDF Processing and Analysis**
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white)](https://www.docker.com/)
 [![Python](https://img.shields.io/badge/python-v3.10+-blue.svg)](https://www.python.org/downloads/release/python-3100/)
 
@@ -372,6 +373,9 @@ This solution is optimized for the Adobe India Hackathon 2025. For improvements:
 4. Ensure hackathon compliance
 5. Submit a pull request
 
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🏅 Acknowledgments
 
@@ -391,3 +395,5 @@ If you encounter issues:
 3. **Ensure PDF files** are properly formatted and ≤50 pages
 4. **Review logs** in the output directory
 5. **Test with sample PDFs** first
+
+**Good luck with your hackathon submission! 🚀**
