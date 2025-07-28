@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  document-processor:
+    build: .
+    container_name: connecting-dots
+    volumes:
+      - ./input:/app/input
+      - ./output:/app/output
+    environment:
+      - PYTHONUNBUFFERED=1
+    networks:
+      - none
+    command: ["python", "main.py", "--mode", "both"]
+
+  # Optional web interface service
+  web-interface:
+    build: .
+    container_name: connecting-dots-web
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./input:/app/input
+      - ./output:/app/output
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: ["uvicorn", "web_app:app", "--host", "0.0.0.0", "--port", "8000"]
+    profiles:
+      - web
