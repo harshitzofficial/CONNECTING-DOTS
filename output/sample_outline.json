@@ -1,0 +1,5071 @@
+{
+  "title": "arXiv:2507.12897v1  [physics.geo-ph]  17 Jul 2025",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "Slip-tendency analysis of a potential CO2 storage",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "site in the central German North Sea",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Hendrawan D.B. Aji1*, Fabian J¨ahne-Klingberg2,",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Heidrun L. St¨uck2, Frank Wuttke1, Petia Dineva3",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "arXiv:2507.12897v1  [physics.geo-ph]  17 Jul 2025",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "1*Institute of Geosciences, Chair of Geomechanics and Geotechnics,",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Kiel University, Ludewig-Meyn-Straße 10, Kiel, 24118, Germany.",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "2Federal Institute for Geosciences and Natural Resources (BGR),",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Stilleweg 2, Hannover, 30655, Germany.",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "3Institute of Mechanics, Bulgarian Academy of Sciences, Acad. G.",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Bontchev St., bl. 4, Sofia, 1113, Bulgaria.",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "*Corresponding author(s). E-mail(s): hendrawan.aji@ifg.uni-kiel.de;",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Contributing authors: fabian.jaehne-klingberg@bgr.de;",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "heidrunlouise.stueck@bgr.de; frank.wuttke@ifg.uni-kiel.de;",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "petia@imbm.bas.bg;",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Abstract",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Underground CO2 storage operations may lead to induced seismicity, which can",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "be partially related to nearby affected faults. Considering the storage potential",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "in the Middle Buntsandstein sandstone formation on the West Schleswig Block",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "within the German North Sea, we investigate the reactivation and seismicity",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "potential of existing faults in the vicinity of a selected study area. For this, we",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "develop a 3D fault data set based on roughly 80 2D seismic lines, combining 60",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "years of exploration history. Contextual details regarding the geological features",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "and the lithological description of the area are presented. Using the fault data",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "set and the present-day stress tensors derived through spatial interpolation of",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "the 3D numerical stress model of Germany, a slip-tendency analysis is performed",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "to assess the susceptibility of existing faults to reactivation and reveal critical",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "focal mechanisms, which are important for further wave propagation simulation.",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Furthermore, we extend the procedure to estimate the sustainable pore pressure",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "window and the potential moment magnitude in the event of a reactivation. The",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "results show that the NW/SE and NNW/SSE-oriented faults exhibit a higher",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "slip tendency. Among these faults, those with a combination of above-average",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "slip tendency and potential moment magnitude are identified and discussed.",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "1",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Keywords: carbon storage, induced seismicity, slip-tendency analysis, fault",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "reactivation",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "1 Introduction",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "It is well-known that earthquakes are unpredictable phenomena caused by naturally",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "shifting stresses in Earth’s crust. However, a range of human activity can also induce",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "earthquakes. Many industrial activities today have an influence on the stress-strain",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "state or on the pore pressure within the Earth’s crust that can induce or trigger earth-",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "quakes. This happens mainly in geothermal and extraction fields or mining regions.",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "The recent increase of induced seismicity has been linked to subsurface activities",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "related to the followings: (a) groundwater extraction (Amos et al (2014)); (b) wastew-",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "ater disposal (Keranen et al (2014); Frohlich et al (2016); (c) oil and gas production",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "(Ellsworth (2013); Hough (2014); Clarke et al (2014)); (d) geothermal energy pro-",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "duction (Giardini (2009); Diehl et al (2017)); (e) geological carbon dioxide (CO2)",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "sequestration (White and Foxall (2016); Stork et al (2018); Goertz-Allmann et al",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "(2024)); or (f) surface and underground mining (Gibowicz (2009)). Literature reviews",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "covering an extensive range of topics including mining-induced seismicity, geotech-",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "nical applications, monitoring of petroleum reservoirs, fluid injections in geothermal",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "areas, seismicity associated with water reservoirs, and underground nuclear explo-",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "sions are presented in Guha (2001); Trifu (2002); Ellsworth (2013); Natl. Res. Counc.",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "(2013); Grigoli et al (2017); Keranen and Weingarten (2018), among others, while",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "those focused on the risks of induced seismicity related CO2 storage can be found in",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "White and Foxall (2016); Verdon and Stork (2016); Cheng et al (2023).",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Carbon capture and storage (CCS) is seen as a way of reducing carbon emissions",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "into the atmosphere in the near future and storing currently unavoidable emissions",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "deep underground (Verdon et al (2011); Stork et al (2018); Luu et al (2022)). Numerous",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "studies have shown that induced seismicity risks related to CO2 storage operations",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "can be minimized through modeling (i.e., site characterization followed by statistical",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "forecasting or numerical simulation), monitoring, and control (i.e., traffic light system)",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "(IPCC (2005); Verdon and Stork (2016); Cheng et al (2023)). To date, Cogdell field",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "(Texas, USA) is the only known CO2-injection field where earthquakes with magnitude",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": ">1 have been reported (Gan and Frohlich (2013); White and Foxall (2016); Cheng",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "et al (2023)). In Germany, potential CO2 storage operations in the German North Sea",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "have gained significantly increasing support and interest since 2022, motivated by the",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "German Government’s goal to achieve climate neutrality by 2045 (Wallmann (2023)).",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Recent investigations on potential storage sites in the Middle Buntsandstein on the",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "West Schleswig Block in the German North Sea (see Fig. 1) pointed to preferable units",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "due to its geological and petrological characteristic (Fuhrmann et al (2024); Bense and",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "J¨ahne-Klingberg (2017)). The German North Sea itself is a seismically quiet region",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "(Gr¨unthal and Wahlstr¨om (2003); G¨unter (2011); Heidbach et al (2018)), and, thus,",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "a focal mechanism identification through inversion is troublesome to carry out. To",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "overcome this gap, we perform a slip-tendency analysis on the existing faults in the",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "2",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Fig. 1: Geological overview map of the central German North Sea and coastal islands",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "with the study region (Henni salt pillow) on the southwestern of the West Schleswig",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Block. The units in the footwall of the Lower Cretaceous to Latest Upper Jurassic",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "unconformity (barrier unit) according to Baldschuhn et al (1994) are shown. Salt",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "diapirs and salt pillows, as well as the faults of the Pre-Zechstein basement are also",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "highlighted. Larger structural regions are separated by a dashed line.",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "vicinity of a potential storage structure, which allows the evaluation of their suscepti-",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "bility to reactivation considering the in-situ stress field, the faults’ geometry, and the",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "effect of non-uniform stress distribution. The slip-tendency analysis has been proven",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "useful for assessing the seismic risks in areas with high natural seismicity (Morris et al",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "(1996); Collettini and Trippetta (2007)), a region with geothermal exploration poten-",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "tial (Moeck et al (2009); R¨ockel et al (2022)), and a wastewater injection field (Vadacca",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "et al (2021)). The study by Moeck et al (2009) also suggested that the results from such",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "an analysis are well correlated with low-magnitude seismicity recorded in a stimulated",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "area. In addition to identifying the critical faults and focal mechanisms, we extend the",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "procedure to derive the sustainable pore pressure window and estimate the potential",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "moment magnitude in the event of a slip. The former is a determining factor in the",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "design and optimization of an injection strategy, while the latter is, in conjunction",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "with the focal mechanism, a substantial input for wave propagation simulations.",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "3",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "The present work is organized as follows. First, Section 2 describes the study area",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "and its geological and lithological characteristics. Section 3 discusses the methods used",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "in this study. The result of the slip-tendency analysis is presented and discussed in",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Section 4. Finally, the paper ends in Section 5 with a list of conclusions and comments",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "for further work.",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "2 Study area",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "The area of focus is located in the southwestern part of the West Schleswig Block",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "in the German North Sea. We adopt the result of a recent study by Fuhrmann et al",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "(2024), which demonstrated several potential storage structures in the area. We are",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "particularly interested in the structure designated as CNS 24 in their paper (see Fig.",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "1), which is bulging in the area of a salt pillow in a hydraulically open to semi-open",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "system. The potential reservoir is located in the base of the Middle Buntsandstein, at",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "a depth of ≈1.6 km, and favored due to its large potential static capacity, minimum",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "lateral confinement, top seal >20 m, and an economically feasible depth (Fuhrmann",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "et al, 2024).",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "In the following, we will first provide a general overview of the geological setting",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "of the study area based on existing knowledge. Next, we will present the database",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "available for this study, followed by the interpretation derived from this data to give",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "a detailed description of the storage structure, focusing on faults. Finally, potential",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "uncertainties underlying this interpretation will be presented.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "2.1 Overview of the geological setting",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "The southeastern German North Sea (Fig. 1) represents the transition from the central",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "North German Basin (CNGB) and the Mesozoic subsidence centre in the area of the",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Gl¨uckstadt Graben (WGG) to the platform areas bordering to the north (the West",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Schleswig Block/WSB) and northwest (the G- and L-Platform/GLP). These in turn",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "are dissected by the Horn Graben (HG), another Mesozoic graben similar to the WGG.",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "The Mesozoic platforms are currently the main focus of interest in the search for",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "suitable structures for CO2 storage. The sedimentary platforms, such as the WSB, are",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "characterised by uniform, steadily progressive sedimentation with low sedimentation",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "rates over long periods of time and, in comparison to other regions, show minor faulting",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "of the Mesozoic to Cenozoic overburden, e.g., see Kockel (1995). In particular, during",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "the Mesozoic basin development, deposition and erosion in the WSB area was largely",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "uniform over large areas. Salt flow triggered by rifting in the area of the HG, WGG,",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "but also by increased subsidence of the neighbouring CNGB to the south, may have",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "led to the formation of larger, more strongly bulging salt pillows along the borders",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "of the WSB to neighbouring structural units during the Middle Triassic. In general,",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "salt pillows in the North German Basin are considered to be particularly suitable trap",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "structures for the potential storage of fluids in the Middle Buntsandstein saline aquifer",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "(e.g., see J¨ahne-Klingberg et al (2014); Fuhrmann et al (2024)).",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "4",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Fig. 2: Overview of the seismic and well data surrounding Henni salt pillow. The",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "base of the Middle Buntsandstein reservoir is shown in the background. The 2D-",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "seismic surveys are marked in different colors according to their age, resolution with",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "depth, and processing status: (white) mid-depth high-resolution 2D survey GEOHIFI",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "acquired by BGR in 2020 (Ehrhardt et al, 2021); (yellow) shallow 2D seismic profile",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "BGR Aurelia 2003; (blue) digitally available 2D profiles from the 1980s/1990s; (red)",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "processed vintage data from the 1970s–1980s; (orange) processed seismic line from the",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "mid-1960s. Two interpreted seismic profiles (Fig. 3) are highlighted by dotted lines.",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Coordinate system ETRS 89 UTM 32N.",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "2.2 Database",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "The Henni salt pillow is covered or at least partially intersected by almost 80 2D seismic",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "lines from 17 seismic surveys with a nearly 60-year exploration history, processed with",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "different workflows and parameters and overall with different levels of processing (Fig.",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "2). The average distance between high-detailed digitally available lines from the late",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "1980s to the 1990s and lines of the GEOHIFI survey recorded in 2020 is around 3",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "km. However, on the southern flank of Henni South, the distance between digitally",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "available data is almost 6 km. To perform a more detailed analysis of fault patterns in",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "this area, several seismic lines from vintage surveys (1960s–1980s) were additionally",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "processed and interpreted. For the southern flank of Henni, the integration of vintage",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "data results in some significantly different horizon geometries with deviations of up to",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "150 ms (roughly between 190 to 300 m) compared to modeling without vintage data.",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "However, WE or even SE-striking faults in the area of Henni South become visible",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "only through the integration of vintage data. Of all things, a NW-SE trending line",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "5",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Fig. 3: Examplary seismic interpretations for the northern (a: GEOHIFI BGR20-",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "115) and southern (b: DEA HJLM-97 U9701) part of the Henni salt pillow based on",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "approximately EW trending depth-converted seismic lines. The location of each profile",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "is highlighted in Figs. 2 and 4.",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "from the 1960s (profile NORD 65-237) provides the greatest insight into the southern",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "flank of Henni.",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "In addition to the seismic data, Henni structure has been drilled down to the level",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "of the Lower Buntsandstein by borehole H 15-1. Further deep wells for correlating the",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "seismic data are located in the top and on the flanks of the Helga structure to the east",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "(B 1, B 2, H 15-2, H 18-1) or even further away in the top of the Hella salt pillow to",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "the north (H-9-1). Based on work on velocity modeling from previous projects (Bense",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "et al (2022); Groß (1986); Jaritz et al (1991)), the interpretation results and the faults",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "modeled in seismic two-way travel time (TWT) runtime were transferred to the depth",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "domain for further analysis of fault mechanics.",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "For the multi-survey interpretation, a seismic-seismic tie was performed. However,",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "this was not always clearly possible due to the different data processing of the indi-",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "vidual surveys. Moreover, with older vintage data, it is sometimes no longer possible",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "to localise the shot points exactly, which leads to positional inaccuracies.",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "6",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Fig. 4: Results of geological mapping and modelling in the area of the Henni salt",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "pillow. The data used for this are shown in Fig. 2. The horizons illustrated here show",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "the bases of (a–c) the Tertiary to Quaternary evolutionary history; (d and e) the",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Upper Buntsandstein and the Lower Cretaceous, which are the barrier formations in",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "7",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "the reservoir caprock; and (f) the Middle Buntsandstein, which is the structure of the",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "reservoir under investigation.",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "2.3 Geological history and structural inventory",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Fig. 1 highlights the location of the Henni salt pillow in an area of the WSB that",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "is influenced by pre-Cretaceous uplift and increased erosion down to the level of the",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Upper Buntsandstein (e.g. Kockel (1995)). No Upper Muschelkalk to Middle Jurassic",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "sediments are preserved on the Henni structure (Fig. 3), indicating a Pre-Cretaceous",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "uplift and erosion. According to well H 15-1 (Fig. 5), the stratigraphic record only",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "begins again with the Tithonian in the hanging wall of the Upper Jurassic to Lower",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Cretaceous unconformity (LCU). The sequences in the hanging wall of the LCU are",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "relatively complete except for smaller erosional gaps. However, variations in the thick-",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "ness of the individual formations can also be observed for these sedimentary sequences",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "(Figs. 3 and 5), which is related to a renewed uplift of the Henni salt pillow that lasted",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "from the Upper Cretaceous to the Miocene. This renewed halotectonic development",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "phase of Henni is contemporaneous with the development and formation of Tertiary",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "crestal faults in the top of a number of salt structures in the central German North",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Sea (see e.g., Br¨uckner-R¨ohling et al (2005)).",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "A closer look at the structure (Fig. 4) reveals two structure maxima: Henni North",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "and Henni South. The latter is significantly more bulged than the former and also",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "shows a more pronounced angular unconformity at the LCU (Fig. 3). The angular",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "unconformity at the base of the Lower Cretaceous and the non-uniform erosion of",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Triassic sequences across the structure is also a clear indication of a pre-Cretaceous",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "development of the Henni structure. Therefore, a formation of the pillow would be",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "probable for the later Middle Triassic to the Middle Jurassic, whereby a comparison",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "with other salt structures of the German North Sea with more complete sedimentary",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "sequences suggests a formation in the late Middle Triassic to Upper Triassic (e.g.,",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Kockel (1995)). Another striking feature, particularly at Henni South, is that due",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "to the incision of the pre-Cretaceous erosion down to the Upper Buntsandstein, the",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Roet salinar was dissolved by subrosion over several kilometres from the apex of the",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "structure (Fig. 3b). It is possible that the influence of the subrosion of the salinar can",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "also be seen in the thickness and facies of the overlying Lower Cretaceous. However,",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "due to the low well density and the lack of 3D seismic data, the nature of the Lower",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Cretaceous barrier cannot be conclusively assessed for the time being.",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "As indicated, Henni South shows a stronger tectonic overprint than Henni North,",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "in the course of more pronounced halotectonics both pre-Cretaceous and again from",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "the Upper Cretaceous onwards. In Fig. 3b, a tree-shaped network of faults can be",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "interpreted, which can be traced from the base of the Buntsandstein to the youngest",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Cenozoic units (see also Fig. 4). This network of faults is the result of the formation of",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "crestal faults both during the pre-Cretaceous structural development and then during",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "the renewed pillow uplift in the Upper Cretaceous up to the Miocene and the associated",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "partial reactivation of pre-cursors. This pattern does not appear at Henni North (Figs.",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "3a & 4). With increasing sedimentary burial in the course of the formation of the",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Eridanos delta (e.g., Th¨ole et al (2014)) in the hanging wall of the Middle Miocene",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "unconformity, the salt pillow development gradually came to a standstill and thus also",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "lead to a decrease in fault activity. The number of faults and their offsets steadily",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "decreased until the late Quaternary (Figs. 3 & 4a).",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "8",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "The pre-Zechstein basement beneath Henni only shows faults with small offsets",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "(a few tens of metres), which do not indicate a direct connection to the faults in the",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Mesozoic to Cenozoic cover (Fig. 3). The largest fault offsets are interpreted in the top",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "of Henni South with vertical offsets of 100–200 m at the Lower Cretaceous to Upper",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Cretaceous level. The vertical offsets in the Lower Buntsandstein are significantly",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "smaller. The Upper Buntsandstein at Henni South still shows vertical offsets of ≈50",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "metres. For the reservoir unit of the Middle Buntsandstein, mainly vertical offsets",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "significantly <50 m were detected. The offsets at the base of the Tertiary are usually",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "between 50 and 75 metres. Depending on the seismic line, the vertical offsets at the",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "base of the Mid Miocene Unconformity (MMU) and in its hanging wall are barely",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "detectable and usually <25 m. The vertical offsets in the area of the uppermost mapped",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "horizon (Fig. 4a), which roughly corresponds to the latest Quaternary, cannot be",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "clearly identified. The faults that reach this structural level probably only show offsets",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "of a few metres. In general, however, it can be stated that the offsets in the top of",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Henni North (Fig. 3a) are significantly smaller in total than in the top of Henni South",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "(Fig. 3b). For the entire structure, the majority of faults are normal faults, but in",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "transitional areas between individual faults and on faults that significantly change",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "their strike, an oblique sense of displacement cannot be ruled out. Reverse faulting or",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "transpressive faulting was not mapped and, if so, can only be assumed to be local and",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "subordinate, but are generally possible in the crestal areas of diapirs and salt pillows",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "(Jackson and Hudec, 2017).",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Fig. 4 provides an overview of the fault patterns at different structural levels. It",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "can be seen that the faults in the Triassic in the footwall of the LCU are limited",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "exclusively to the top of Henni South. Parts of the Upper Buntsandstein (seal) and",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "the Muschelkalk are also eroded there (Fig. 4e). Especially in the sequences from the",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Lower Cretaceous to the base of the MMU, along the western and southern flanks of",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Henni South, radial aligned grabens and faults with W–E and approx. N–S orienta-",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "tion are formed. This set of faults appears to have had no influence on the Middle",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Buntsandstein reservoir, but in some cases clearly offset the Lower Cretaceous bar-",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "rier unit. In Fig. 3b, one of these faults is unfavourably transected (comparison with",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Fig. 4) at a narrow angle, but appears to have a possible detachment in the Roet",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "(Upper Buntsandstein). Within the Upper Cretaceous, a NNE to NE trending fault",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "set seems to have developed across the entire Henni structure. This fault set can also",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "be observed in the Palaeogene (Fig. 4c) and Miocene (Fig. 4b) units. The faults in the",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "top of Henni North do not appear to be directly linked to those of Henni South, but",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "are diffusely interlocked between the two maxima of the Henni salt structure. Possi-",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "ble linkages of the faults in the top of the Henni North to those of the Henni South",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "cannot be reliably denied with the current data situation.",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "With regard to potential fluid migration pathways, the following can be noted.",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "The interpretation of the southern sub-trap (Fig. 3b) points to a strong segmentation",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "at the apex of the structure and fault networks that could represent potential fluid",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "pathways from the reservoir to near the surface. In contrast, faults in the northern part",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "of the salt pillow (Fig. 3a) are mapped exclusively in the Cenozoic overburden. There,",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "the reservoir (smV) and the barriers (so & lcr) show no seismically detectable offsets.",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "9",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "2.4 Uncertainties of the fault interpretation",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "The greatest uncertainties in the fault interpretation presented here are due to the low",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "data density, sub-optimal orientation of the seismic profiles, and the general structural",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "complexity. This difference in the seismic data, with sometimes massive differences in",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "the visualisation of structures ultimately leads to an increased interpretational bias in",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "the evaluation of the geometry and the orientation of individual faults. Fault patterns",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "in the top of salt structures in particular can exhibit a complex interlocking of indi-",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "vidual faults, as well with an overlapping of radial and circular fault patterns (Jackson",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "and Hudec, 2017). For this reason, the fault interpretation of closely spaced fault sets,",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "as in the top of Henni, based solely on 2D seismic, leaves greater uncertainties in the",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "linking of the individual fault picks from one seismic line to the next. This was taken",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "into account in the interpretation by ensuring that the individual modeled faults show",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "plausible displacements with the strike and that, without further indications, only",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "fault picks with similar geometries and dips were linked to the depth without causing",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "an excessive change in the fault’s orientation. In a few cases, individual line interpre-",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "tations had to be ignored to obtain a consistent fault geometry. In this context, the",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "highest uncertainties in the current area are (1) at the southern flank and in the top",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "of Henni South as well as (2) in the centre of the two structural cumulation points",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "of Henni North and Henni South. In the latter, the faults in the top of Henni North",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "interlock with those of Henni South. In this area, it is usually impossible to clearly",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "assign individual 2D seismic fault picks to a fault plane. The SE- and ESE-striking",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "faults on the southern flank of Henni are mainly only interpreted on the base of vin-",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "tage data. Their different heterogeneous processing and generally lower data quality",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "also lead to a greater interpretational bias for this area of the structure.",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "It should also be noted that the velocity model used is based on former modeling,",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "in which the findings from the vintage data could not be taken into account. As a",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "result, the velocity model used only provides a distorted representation of the velocity",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "distribution with depth, particularly in the area of the southern flank of Henni. But",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "the general error in the depth representation of horizons and faults is presumably",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "significantly lower than the error caused by a general failure to take vintage data into",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "account when modeling the Henni structure.",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "2.5 Lithological description",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Based on the lithological descriptions provided in the drilling reports for salt pillow",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Henni South (H 15-1) and salt pillow Hella (H 9-1), descriptive and qualitative insights",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "into the mechanical properties of the individual geological units can be derived. In",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "the Tertiary, Upper Miocene sands are generally unconsolidated, with a clayey matrix",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "becoming more prominent toward the base. The Middle Miocene clays are described",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "as soft and soft-plastic and variably silty, with localized firmer glauconitic material.",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "The Lower to Middle Miocene features soft, plastic clays and sand. In the Lower",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Miocene, the sequence includes clays that are mostly soft, interspersed with thin,",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "weakly consolidated sandy layers and occasional dolomitic stringers.",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "At Henni South, a gradual transition from unconsolidated clays to claystones is",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "reported within a depth range of 505–550 m. It is associated with clays of the Eocene",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "10",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Fig. 5: Qualitative descriptions of lithological & mechanical properties in dependence",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "of stratigraphy, based on the wells on Henni South (H 15-1) and salt pillow Hella (H",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "9-1).",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "11",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "IV and therefore, first consolidated rocks are assigned to the sediments of Eocene III.",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "In contrast, well H 9-1 exhibits a sharp boundary at a depth of 637 m, represent-",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "ing the base of the Lower Miocene. The Eocene rocks show a progression from very",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "soft glauconitic clays in Eocene IV to slightly firmer claystones in Eocene II and III.",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "Eocene I presents claystones that are soft to firm, with volcanic tuffs that are granular",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "and blocky in texture. In the Cretaceous, the Upper Cretaceous chalks are moder-",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "ately hard and friable, with nodular chert bands that are very hard and splintery. The",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "Lower Cretaceous claystones are described as soft to firm, with the basal oolitic iron-",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "stone layer being more resistant. Jurassic sediments are only reported for Henni South,",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "where (glauconitic) sandstones are occasionally consolidated but generally weakly",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "cemented. In the Triassic, the Upper Buntsandstein is twofold and comprises soft to",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "firm shales with interbedded hard anhydrite layers of the so-called Roet Shale and, of",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "hard and microcrystalline anhydrite of the Roet salinar. The Middle Buntsandstein",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "includes shales that are mostly soft but become blocky and firm in parts, with harder,",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "well-cemented sandstones (fining-upward cycles). The Lower Buntsandstein or the",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "Volpriehausen formation (lowest Middle Buntsandstein) is characterized by the alter-",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "nation of shales and sandstones together with soft shales interspersed with thin, hard,",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "calcareous oolitic sandstone layers. For Henni South at a depth of 1483 m, a decrease",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "in sandstone percentage was observed and hard shale became the dominant lithology.",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "At Hella (well H 9-1), the Volpriehausen (Fm) is characterized by the alternation of",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "claystones, firm to hard sandstones, and interbedded oolites.",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "Based on the lithological descriptions from the drilling reports, the following",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "purely descriptive and qualitative statements can be made regarding the lithological",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "sequences:",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "1. Variability in consolidation: The lithological units exhibit a wide range of con-",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "solidation states, from unconsolidated sands in the Upper Miocene to firm and hard",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "layers such as the chalks of the Upper Cretaceous and the sandstones of the Triassic.",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "2. Soft and plastic clays: Significant intervals, particularly in the Miocene and",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "parts of the Eocene, are dominated by soft to plastic clays, often with minor silty",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "or sandy components.",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "3. Chalk dominance in the Cretaceous: The Upper Cretaceous sequence is char-",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "acterized by moderately hard, friable chalks, occasionally interspersed with harder",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "chert nodules.",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "4. Presence of firm claystones: The Eocene contains increasingly firm claystones",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "in the lower sections, transitioning from soft glauconitic clays.",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "5. Division in terms of lithology and mechanical properties: Soft to firm shales",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "with interbedded hard anhydrite layers representing the Roet shale, and hard &",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "microcrystalline anhydrite of the Roet salt.",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "6. Alternation of shales and hard sandstones Middle Buntsandstein: The",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "Triassic sequences of the Buntsandstein, include hard, well-cemented sandstones",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "and distinct oolitic facies, contrasting with softer shales. Characteristic feature are",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "fining upward cycles.",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "7. Interbedding of soft and hard layers: Many intervals, such as those in the",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "Miocene, Eocene, and Triassic, show interbedding of soft clays and firmer or harder",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "sandy or carbonate-rich layers, reflecting varied depositional environments.",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "12",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "8. Dolomitic and anhydritic layers: Certain sections, particularly in the Trias-",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "sic, include harder dolomitic and anhydritic interbeds, enhancing local lithological",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "competence.",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "2.6 Stress state",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "For this analysis, the orientation of the maximum horizontal stress for each fault",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "section is derived through spatial interpolation from the 3D numerical stress model",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "of Germany published by Ahlers et al (2022). The range of azimuth for the area is",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "[340◦, 336◦] with a mean value of 338◦. We consider two scenarios of present-day stress",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "magnitudes. In the first, the stress gradients are taken from the values measured in",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "Kronprinzenkoog (Morawietz et al (2020)) with maximum and minimum horizontal",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "stress gradients of -19.90 MPa/km and -16.99 MPa/km, respectively, and a vertical",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "stress gradient of -23.40 MPa/km, which are comparable with those reported by Noy",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "et al (2012) and Fellgett et al (2018) or close to those reported by Orlic (2016).",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "Additionally, the data from leak-off test collected from nearby exploration wells in the",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "Dutch region (www.nlog.nl) show a mean gradient value of -16.6 MPa/km. The leak-",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "off pressure, in many cases, can be used to estimate the magnitude of the minimum",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "horizontal stress (White et al, 2002). These values are applied linearly from the surface",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "to the depth under consideration, resulting in a normal faulting regime. In the second",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "scenario, the stress tensors are taken directly from the numerical stress model by Ahlers",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "et al (2022). The main difference here lies in the gradient of the maximum horizontal",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "stress, which, in the second scenario, is higher than the gradient of the vertical stress",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "for depths between zero to ≈2.5 km. The predominant regime thus is a strike-slip type",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "since the fault data set considered in this study is no deeper than 3 km.",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "3 Methods",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "The slip tendency for a cohesionless or non-virgin fault is defined according Morris",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "et al (1996) as",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "����",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "���� ,",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "τ",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "TS =",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "(1)",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "σ′n",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "which is based on Amonton’s law or Coulomb-Mohr criterion on fault reactivation,",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "which describes the initiation of a slip as",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "τ ≥ τf = Cf − µf σ′",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "n.",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "(2)",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "Here, TS is the slip tendency, τ and σ′",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "nare the resolved shear stress and the effective",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "normal stress acting along the fault’s plane, respectively (Jaeger et al (2011)), τf is the",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "available frictional resistance of the interface, and Cf and µf are the cohesion and the",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "frictional coefficient, respectively. The effective stress tensor is defined as σ′= σ+I P,",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "where I is the unit matrix and P is the pore pressure. The normal and shear stresses for",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "a given fault plane can be calculated from the acting principal stresses, see Jaeger et al",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "(2011). We adopt in this contribution the engineering convention where compressive",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "stresses and strains are negative. To improve readability, the slip tendency can be",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "13",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "normalized with respect to the frictional coefficient, µf, as (Peters (2007)):",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "TSnorm =TS",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": ".",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "(3)",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "µf",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "µf",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "Thus, a fault is in a critical condition when TSnorm ≥ 1.",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "The critical condition described above can also be presented in terms of a maximum",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "sustainable pore pressure change. Such a presentation is important for planning and",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "optimizing an injection strategy and potentially more appealing for decision makers",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "or stakeholders in general. Eq. (2) can be written in terms of in-situ pore pressure,",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "Ph, and additional pore pressure, ∆P (e.g., due to an injection) as",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "τ ≥ Cf − µf (σn + Ph + ∆P ).",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "(4)",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "A fault slip will be triggered when the pore pressure change reaches or exceeds the",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "following:",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "∆P ≥Cf − τ",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "− σ′",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "(5)",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "Thus, ∆P can be defined as the maximum sustainable pore pressure change, which",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "should not be exceeded to avoid bringing the fault to a critical state. In eq. (5), σ′",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "n",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "represents the initial effective normal stress, prior to an injection. Therefore, it should",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "be noted that the above definitions do not consider the hydromechanical interaction",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "taking place during the injection process. To consider such an interaction, the injection",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "well’s position, as well as the poroelastic properties of the region, must be known so",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "that mechanical stress and pore pressure propagations can be correctly computed. In",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "the absence of these data, the relation in eq. (5) provides a rough estimation on the",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "feasibility of an injection, from the perspective of a fault.",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "In this contribution, the slip-tendency analysis is carried out with the main purpose",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "of deriving the likely focal mechanisms in the case that a microseismic event is triggered",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "by the sequestration process. The friction coefficient, µf, for each stratigraphic layer, is",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "based on the study by Samuelson and Spiers (2012). A value of 0.48 is assigned on faults",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "located in layers dominated by fine-grained materials, i.e., in the Miocene–Eocene, the",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "Lower Cretaceous, the Upper Buntsandstein, the Lower Buntsandstein, and the upper",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "layer of the Zechstein. The faults in the Upper Cretaceous are assigned µf of 0.6, based",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "on the experimental result for Roet Claystone with higher quartz content (Samuelson",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "n.",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "and Spiers, 2012). The upper part of the Middle Buntsandstein is dominated by fine-",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "grained material, while its lower part has a relatively higher sandstone content (Fig. 5).",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "For this layer, a value of 0.53 was obtained from averaging the values of all sub-layers",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "proportional to their thickness in H 15-1.",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "Strikes and dips of the faults are calculated using their geometric vectors. The unit",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "normal of each fault plane is enforced to have a positive vertical component so that",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "the dip can be calculated correctly, and the strike is positioned accordingly. Rakes",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "are then calculated based on the faults’ striking direction and the shear stress tensor",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "acting along the fault plane. The slip-tendency analysis for this study is written using",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "MATLAB, while the fault model is developed using GOCAD.",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "14",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": ".",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Fig. 6: (a) Slip tendency, TS, and (b) its normalized value, TSnorm, of the fault set",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "near the targeted sub-traps assuming linear present-day stress gradients. In each sub-",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "figure, the base of the Middle Buntsandstein is presented as a grey mesh.",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "To estimate the potential magnitudes, connected fault segments are clustered",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "according to the stratigraphic strata and their orientation. In the latter, tolerance",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "values of 5◦, 2◦, and 2◦are applied for the strike, dip, and rake, respectively. The",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "potential magnitude of each fault is then estimated using the scaling relation for fault",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "area according to Kanamori and Brodsky (2004):",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Mw = log10M0 − 9.1",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": ",",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "(6)",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "1.5",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "in which, in this case, the moment magnitude is linked to the pore pressure change in",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "eq. (5), such that",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "M0 = ∆P A3/2",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "(7)",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "f",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Here, Af is the collective area of each fault.",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "In this approach, it is assumed that the individual faults are non-interactive,",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "including with their counterpart in the overburden or in the footwall in the case of a",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "through-cutting fault nor with their parallel or crossing counterpart in the case of a",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "multi-strand or interconnected fault. This assumption is valid when the permeability",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "and mechanical properties permit. Another drawback is that eq. (7) results in high",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "potential moment magnitudes in faults with a high pore pressure window. Thus, faults",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "with a high slip tendency tend to have a low potential moment magnitude. Further-",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "more, the calculation of the potential moment magnitude is based on the assumption",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "that each fault in a given stratigraphic layer acts as a single continuity. In nature,",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "slip along a rupture plane in the case of injection tends to start in an area where the",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "stress change is highest (i.e., in the area of the fault that is directly in contact with",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "a reservoir) and propagate to the nearby area of the fault’s plane, see, e.g., Rutqvist",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "et al (2016). To consider this aspect, an alternative scenario of eq. (7), in which Af",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "considers a height of 2 × hr, where hr is the height of the reservoir unit, is taken into",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "15",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "account. According to H 15-1, hr is ≈40 m thick. A more detailed analysis, however,",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "requires a proper definition of the poroelastic properties of each fault and is reserved",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "for further study.",
+      "page": 16
+    },
+    {
+      "level": "H1",
+      "text": "4 Results and discussion",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "The results of the slip-tendency analysis for the fault set near the targeted sub-traps",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "assuming linear present-day stress gradients are presented in terms of TS and TSnorm in",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "Fig. 6. As both terms are linearly related, both sub-figures have a similar pattern and",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "vary in scale. While the values of TS are in the range of [0.007, 0.334], those of TSnorm",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "are in the range of [0.011, 0.695]. Most faults show a weak dependence of their slip",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "tendency on the depth, while some faults exhibit such a strong dependence. In terms",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "of location, critical faults with higher slip tendencies can be found at the northern",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "and southern structures. The faults with NW/SE and NNW/SSE orientation show",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "higher slip tendencies compared to those with other strikes, which corresponds to the",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "azimuth of the maximum horizontal stress. Conversely, the lowest slip tendencies are",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "observed along faults with NE/SW and ENE/WSW orientation, perpendicular to the",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "aforementioned azimuth.",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "The slip tendencies of the faults, grouped according to stratigraphic strata, are",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "presented in Fig. 7, which allows a more detailed overview of the values in each layer.",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "Faults with TS >0.31 can be found in the vicinity of Henni South within the Cenozoic,",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "Mesozoic and Zechstein strata and above Henni North within the Cenozoic and Upper",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "Cretaceous strata. The highest population of faults with TS >0.31 is found in the",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "Upper Cretaceous, followed by the Tertiary and the Lower Cretaceous. In the Upper",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "Cretaceous (Fig. 7a), higher slip tendencies (TS >0.32) are observed in the faults",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "located along the axial region of the northern and southern Henni as well as at the",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "southern and southwestern flank of Henni. These high values are found in the faults",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "with strikes of [325◦, 355◦] and [140◦, 178◦]. Some faults in the west, south and south-",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "west of Henni South extend to the Lower Cretaceous and the Upper Buntsandstein",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "(Figs. 7a–c, see also Section 2), and these transecting faults exhibit similar trend of",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "slip tendency with a mean value of ≈0.2. Other transecting faults along the southern",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "structure, extending until the Zechstein layer, exhibit mainly lower slip tendencies due",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "to its orientation with mean values of 0.16, 0.15, and 0.15, respectively (Figs. 7d–f).",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "These results are then calculated as the maximum sustainable pore pressure",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "change, ∆P , and its gradient, ∆P /Depth, which are shown in Fig. 8. The plot for ∆P",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "(Fig. 8a) shows a range of [4, 213] bar and a strong dependence of the value on the",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "depth. The critical values are observed on the near-surface faults, while high pressure",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "windows are observed in the deeper faults, which is due to the higher confining stresses.",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "When computed as gradients over the depth, the values are in the range of [26, 125]",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "bar/km (Fig. 8b), and the distribution pattern changes significantly. The pattern is",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "now closer to the one of the slip-tendency, where critical values are observed in the",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "faults whose strikes are close to the azimuth of the maximum horizontal stress. Under",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "the considered assumptions, the minimum tolerable pore pressure change of the faults",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "in the Middle Buntsandstein is ≈45 bar. A continuation of this study, in which the",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "16",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "Fig. 7: Slip tendency, TS, of the faults in (a) the Upper Cretaceous, (b) the Lower Cre-",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "taceous, (c) the Upper Buntsandstein, (d) the Middle Buntsandstein (e) the Lower",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "Buntsandstein, and (f) the uppermost layer of the Zechstein (linear present-day stress",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "gradients). In each sub-figure, the underlying base is shown as a grey mesh.",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "17",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "Fig. 8: (a) Maximum sustainable pore pressure change, ∆P , and (b) its gradient,",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "∆P /Depth, of the fault set near the targeted sub-traps (linear present-day stress gra-",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "dients).",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "Fig. 9: (a) Slip tendency, TS, and (b) its normalized value, TSnorm, of the fault set near",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "the targeted sub-traps considering present-day stress tensors by Ahlers et al (2022).",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "In each sub-figure, the base of the Middle Buntsandstein is presented as a grey mesh.",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "pore pressure changes caused by various CO2 injection schemes are evaluated with",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "regard to the results presented here, is ongoing.",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "The slip tendencies and its normalized values considering present-day stress tensors",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "by Ahlers et al (2022) are shown in Fig. 9. The maximum TS in this case is 0.51",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "while the maximum TSnorm is higher than 1. When µf of the fault set is increased to",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "0.57 following the approach by R¨ockel et al (2022), the maximum TSnorm is ≈0.9. The",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "distribution pattern of the slip tendencies are quite close to the one obtained using",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "linear present-day stress gradients (Fig. 6). Although the higher TSnorm values here",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "indicate that the faults are critically oriented and stressed, especially in the younger",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "strata, they do not necessarily translate into seismic activity, as this depends on the",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "dominant material type in the fault zone and the rheological property of the frictional",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "strength of the fault, e.g., see Scholz (1998); Samuelson and Spiers (2012). The ∆P",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "18",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "Fig. 10: Maximum sustainable pore pressure change, ∆P , of the fault set near the",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "targeted sub-traps (present-day stress tensors according to Ahlers et al (2022)).",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "computed using this assumption are shown in Fig. 10. The stark difference in the",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "range of ∆P , compared to those in Fig. 8a, is caused by the changes in the normal and",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "shear stresses acting on the faults, which are also reflected in the changes of the rakes.",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "For example, the fault with a ∆P of 300 bar in Fig. 10 has a rake of 42◦, indicating a",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "strike-slip or near reverse movement tendency, while the same fault in Fig. 8a exhibits",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "a ∆P of 166 bar and has a rake of -88◦. When using this assumption, the minimum",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "∆P of the faults within the Middle Buntsandstein decreases to ≈17 bar, indicating a",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "significantly lower sustainable injection rate or a requirement to rearrange the injection",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "scheme altogether.",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "4.1 Influence of cohesion",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "To investigate the influence of cohesion on the slip tendency, a calculation considering",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "a cohesion of 2.5 MPa is performed and the results are shown in terms of TS in Fig. 11",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "and ∆P and ∆P /Depth in Fig. 12. A cohesion value of 2.5 MPa is relatively low given",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "that the region is seismically quiet. It is likely that cementation has taken place along",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "the fault within the Pre-Cretaceous strata and cohesion along these faults’ plane is",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "higher than this value. As an example, a study by Reyer and Philipp (2014) showed",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "high unconfined compressive strengths in samples of Triassic sandstone, indicating high",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "cohesion. However, Jaeger et al (2011) suggested to consider no or strongly reduced",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "cohesion for rocks in the vicinity of fractures. Thus, considering that primary data",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "is not yet available, this value is taken to qualitatively assess the influence of the",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "parameter.",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "Fig. 11 shows that the improvement due to cohesion is stronger for the shallow-",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "depth faults, which is due to the constant value of cohesion assumed for this case",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "study. Compared to those in Fig. 6, the results in this case show a higher dependence",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "on the depth. The plot for ∆P (Fig. 12a) shows the same pattern as that found in the",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "comparable sub-figure in Fig. 8. The range of the values is linearly increased by 2.5/µf",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "MPa to [56, 265] bar. The values of ∆P /Depth are in the range of [53, 573] bar/km",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "(Fig. 12b), and the corresponding plot shows, in addition to the dependence on the",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "19",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "Fig. 11: Slip tendency, TS, of the fault set near the targeted sub-traps considering a",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "cohesion of 2.5 MPa (linear present-day stress gradients).",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "Fig. 12: (a) Maximum sustainable pore pressure change, ∆P , and (b) its gradient,",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "∆P /Depth, of the fault set near the targeted sub-traps considering a cohesion of 2.5",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "MPa (linear present-day stress gradients).",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "fault geometry, a stronger dependence of the variable on the depth compared to the",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "results of the calculation with no cohesion. Particularly for the Middle Buntsandstein,",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "the consideration of a cohesion of 2.5 MPa increased significantly the ∆P to ≈92 bar.",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "4.2 Influence of strike, dip, and rake",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "To show the vulnerable focal mechanisms under the assumption of linear present-day",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "stress gradients, the slip tendencies are plotted in relation to their strike, dip, and",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "rake in Fig. 13. The highest TS of 0.334 is observed in a fault segment with a strike of",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "340◦(Figs. 13a), while TS of 0.333 is also observed in a fault with a strike of 155◦. A",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "20",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "Fig. 13: Slip tendency, TS, of the fault set near the targeted sub-traps in relation to",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "its (a) strike, (b) dip, (c) rake, and in cross relation to (d) strike and dip, (e) strike",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "and rake, and (f) dip and rake (linear present-day stress gradients).",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "Fig. 14: Slip tendency, TS, of the fault set near the targeted sub-traps, clustered",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "according to the stratigraphic units, in relation to the faults’ (a) strike and (b) dip",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "(linear present-day stress gradients).",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "21",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "deviation of 20◦from these critical strikes results in a reduction of the TS by ≈5%. The",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "critical dip can be identified in Figs. 13b as 55◦, and a ≈5% reductions are observed in",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "-10◦and +7◦deviation from the critical point. In terms of rake, Fig. 13c shows that",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "the critical value is -90◦and a deviation of 16◦from this value results in a reduction",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "of TS by ≈5%. These critical strike, dip, and rake occur at the same or similar fault",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "segment, as shown in cross plots relating TS to the strikes, dips, and rakes in Figs. 13d-",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "f. The cross plot also shows that the slip tendencies of faults with dips between [15◦,",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "65◦] follow a double-saddle shape in relation to the strike parameter. In general, the",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "patterns observed in the results are in line with the common theory of slip mechanism,",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "e.g., see Scholz (2019). In addition, the identified critical focal mechanisms relate quite",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "well with two seismic events cataloged by Weemstra et al (2022) for the Central North",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "Sea, whose strikes, dips, and rakes are (1) 356◦, 85◦, -95◦; and (2) 142◦, 35◦, -80◦.",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "Besides the apparent similarity, it should be noted that these cataloged seismic events",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "are located in an area whose tectonic setting is not entirely comparable to the one of",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "Henni.",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "The slip tendencies, in relation to the faults’ strike and dip, are plotted according",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "to the stratigraphic units in Fig. 14. The figure shows that the faults in the Upper",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "Cretaceous, Lower Cretaceous, and the Upper Buntsandstein have a wide range of",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "strikes and dips (Fig. 14a). In these layers, the faults along the northern and southern",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "sub-traps show a mean strike value of 53◦(after reversal of the conjugate faults), in",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "line with the direction of the two maxima along the salt pillow (see Fig. 4), and a mean",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "TS of 0.22. In the southwestern flank of Henni South, the faults are oriented towards",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "a mean strike of 104◦, which results in a mean TS of 0.23. The strike characterization",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "of the faults in the three units of Buntsandstein shows a gradual tendency over the",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "depth towards NE with mean values of 75◦, 66◦, and 65◦(after reversal) for the upper,",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "middle and lower parts, respectively. This leads to relatively low TS values with a",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "mean of 0.13–0.17 in all three layers. However, several fault segments are oriented",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "towards the critical strike and dip and, therefore, exhibit above-average slip tendencies.",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "Similarly, the dip characterization of the fault set in the Upper Cretaceous, Lower",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "Cretaceous, and the Upper Buntsandstein as shown in Fig. 14b shows a relatively",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "consistent distribution with mean values of 49◦–53◦. In the subsequent Buntsandstein",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "layers and below, the number of low-dipping faults gradually decreases over the depth,",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "as shown by the increasing mean values of 61◦, 67◦, and 68◦, respectively (see also",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "Fig. 3).",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "The relations between the slip tendencies with the fault geometry and movement",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "tendency obtained from the analysis considering stress tensors according to Ahlers",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "et al (2022) are presented in Fig. 15. In this case, slip tendencies >0.48 can be observed",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "in faults whose strikes are in the range of [156◦, 197◦] and [356◦, 23◦] (Fig. 15a). The",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "ranges of critical strikes are significantly wider than the ones obtained using linear",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "stress gradients in Fig. 13a. Similarly, the critical dips and rakes have wider ranges",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "with slip tendencies >0.48 shown in the faults with dips of [53◦, 90◦] (Fig. 15b) and",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "rakes of [-85◦, 0◦] (Fig. 15c). Since this study considers faults that are no deeper",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "than 3 km, the stress tensors by Ahlers et al (2022) result in a dominant strike-slip",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "type of fault, as discussed in Section 2.6 and shown in Fig. 15d. The critical focal",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "mechanisms, especially the rakes, and the predominant fault type do not match very",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "22",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "Fig. 15: Slip tendency, TS, of the fault set near the targeted sub-traps in relation to",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "its (a) strike, (b) dip, (c) rake, and (d) clustered according to the stratigraphic units",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "and in relation to rake (present-day stress tensors according to Ahlers et al (2022)).",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "well with the two cataloged events mentioned before (Weemstra et al, 2022) and the",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "fault offsets observed in Fig. 3, which mainly show normal faults, even at the base of",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "MMU. However, the latter is likely due to a modification in the local stress regime",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "due to the local geological setting and history. The deformation and faulting in the",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "area are more likely driven by the upwelling of the Henni salt structure rather than",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "the far-field stresses. Therefore, a further field investigation is required to confirm the",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "local current stress magnitudes and orientation as well as the frictional and poroelastic",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "properties of the faults in order to draw a more solid conclusion.",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "4.3 Potential magnitude of seismic events",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "The potential magnitudes of seismic events of the fault set, calculated using eq. (7)",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "assuming linear present-day stress gradients, are shown for different stratigraphic lay-",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "ers in Figs. 16 and 17. Only faults with potential magnitude >-1 are shown for clarity.",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "For this calculation, a cohesion of zero is assumed and the potential moment mag-",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "nitude of each fault is calculated assuming a continuous rupture plane along each",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "stratigraphic layer (see Section 3).",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "In the Upper Cretaceous, several faults in the vicinity of the southern sub-trap",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "show a combination of elevated slip tendencies and elevated potential magnitudes (Fig.",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "16a). For example, at the southern flank of Henni South, several faults show TS of",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "[0.25, 0.31] and potential moment magnitudes of [1.83, 2.20] MW . In these cases, the",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "combination of above-average values of slip tendency and potential moment magnitude",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "is the direct result of the faults’ orientation and respective area. These faults are",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "23",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "separated from the reservoir unit by the main seal. However, a potential reactivation",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "must not be ruled out without further information.",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "At Henni North, 9 faults with potential magnitudes of 1.42> MW >1.65 are",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "observed in the Upper Cretaceous (Fig. 16a). Some of these faults are oriented at",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "strikes of 351◦and 2◦, which are relatively close to the azimuth of the maximum hor-",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "izontal stress, while the rest are oriented at strikes of 32◦–60◦. The most unfavorable",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "combination of these faults is the one characterized by a strike of 2◦and a dip of 52◦,",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "which results in a TS of 0.31 and a potential event of 1.42 MW .",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "In the Middle Buntsandstein, in which the reservoir unit is located, two faults",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "with potential moment magnitudes >2.0 MW at Henni south are observed (Fig. 16d).",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "Within this layer, a direct migration of stresses, strains, and pore pressures is expected",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "in the case of an injection. These faults have strikes and dips of (215 and 230)◦and",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "(31 and 47)◦, respectively, and a slip tendency of ≈0.17. Thus, these faults are not",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "critically oriented and stressed. On the other hand, slip tendencies >0.31 are observed",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "on faults with strikes of 150◦–175◦and dips of 45◦–58◦, and they show potential",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "moment magnitudes of (-0.18)–0.62 MW .",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "The fault segments of the same fault clusters at Henni South, crossing into the",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "Upper Buntsandstein and the Lower Cretaceous have maximum potential moment",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "magnitudes of 1.97 and 1.61, respectively (Fig. 16d and c), while the ones in the Lower",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "Buntsandstein and the upper layer of the Zechstein have potential magnitudes of up to",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "1.89 and 2.05, respectively (Figs. 16e and f). As observed in the Middle Buntsandstein,",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "the faults related to these values in these layers are not critically oriented and stressed.",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "Among the faults with TS >0.30, the maximum potential moment magnitudes are",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "1.28 MW , 1.48 MW , 0.81 MW , 0.07 MW , and 0.54 MW in the Lower Cretaceous,",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "the Upper Buntsandstein, the Middle Buntsandstein, the Lower Buntsandstein, and",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "the upper layer of the Zechstein, respectively. Further examination into the Cenozoic",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "overburden reveals a potential moment magnitude of 0.93 MW in the critically oriented",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "faults. Thus, the combination of above-average potential moment magnitudes and slip",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "tendencies is only found in the upper part of Mesozoic near Henni South, which can",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "be related to the larger offsets found in this layer (see Section 2.3). The clear trend of",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "decreasing MW as TS increases in the Buntsandstein is further illustrated in Fig. 17a,",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "which also shows the more complex relation between the variables in the upper part",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "of the Mesozoic. The presence of larger faults with critical orientation in these layers",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "results in above-average slip tendencies and potential magnitudes. Similar trends are",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "also observed when the fault set is analyzed considering the stress tensors by Ahlers",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "et al (2022) (Fig. 17b).",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "Due to the assumption of a continuous rupture plane at each fault, the above esti-",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "mated moment magnitudes tend to be on the conservative side. Using an alternative",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "assumption that the height of the rupture plane is limited to 2 × hr, where hr is ≈40",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "m according to well H 15-1, the potential moment magnitudes of the faults in the Mid-",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "dle Buntsandstein at Henni South are [-5.39, 1.39] MW . The fault with the highest",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "potential moment magnitude is not critically oriented and stressed (TS=0.18). Among",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "the faults with TS >0.25, the potential moment magnitudes are [-2.27, -0.07] MW .",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "However, in this case, the minimum ∆P is slightly reduced to ≈42 bar.",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "24",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "Fig. 16: Potential moment magnitudes (MW > −1) of the faults near the targeted",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "sub-traps in (a) the Upper Cretaceous, (b) the Lower Cretaceous, (c) the Upper",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "Buntsandstein, (d) the Middle Buntsandstein, (e) the Lower Buntsandstein, and (f)",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "the uppermost layer of the Zechstein (linear present-day stress gradients). In each sub-",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "figure, the corresponding base is shown as a grey mesh.",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "25",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "Fig. 17: Potential moment magnitudes, MW, of the fault set near the targeted sub-",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "traps, clustered according to the stratigraphic units and the orientation and potential",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "movement of the faults, plotted in relation to its slip tendencies, TS, obtained (a)",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "using the assumption of linear present-day stress gradients and (b) considering the",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "stress tensors by Ahlers et al (2022).",
+      "page": 26
+    },
+    {
+      "level": "H1",
+      "text": "5 Conclusions",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "Following a previous study which shows potential saline aquifer storage sites on the",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "West Schleswig Block within the German North Sea (Fuhrmann et al, 2024), we inves-",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "tigate the stability of existing faults in a selected study area to reactivation. The fault",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "interpretation and modeling are based on 80 2D seismic data combining 60 years of",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "exploration history. The geological history, features, and lithological description of",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "the area are discussed. A slip-tendency analysis is then performed using the 3D fault",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "model and the 3D stress model of Germany, and it reveals the critical focal mecha-",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "nisms, which are well correlated with back-calculated events in the Central North Sea",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "(Weemstra et al, 2022). The slip-tendency procedure is also extended to derive the",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "maximum sustainable pore pressure change which is important in defining injection",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "strategies. Furthermore, the potential moment magnitude in the event of a fault reac-",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "tivation is estimated using an assumption that the change of stress would not exceed",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "the triggering pore pressure change.",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "When assuming linear present-day stress gradients with a normal-faulting regime,",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "the results of the slip-tendency analysis show that the faults near the Henni salt pillow",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "exhibit a maximum slip tendency of 0.33. NW/SE and NNW/SSE-oriented faults show",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "higher slip tendency, in accordance with the azimuth of maximum horizontal stress in",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "the area (Ahlers et al, 2022). The critical dip and rake are identified as ≈55◦and ≈90◦,",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "respectively. Assuming a continuous rupture area along each layer, it is estimated",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "that the maximum potential moment magnitudes are ≈2 MW . When the height of",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "the rupture plane is limited two times the height of the reservoir unit, the maximum",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "potential moment magnitude is 1.39 MW . For the majority of the faults, the local",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "maxima of the slip tendency does not correlate with the local maxima of potential",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "moment magnitude. However, several faults in the upper part of the Mesozoic near",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "26",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "Henni South show relatively high slip tendency and above-average potential moment",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "magnitude. Although these faults are located above the main seal, there remains a",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "potential reactivation due to the potential leakage pathway through the fault zone.",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "When analyzed considering the stress tensors according to Ahlers et al (2022), higher",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "slip tendencies are obtained, suggesting that the faults are critically stressed and prone",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "to reactivation. These results highlight the importance of a further field investigation",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "to confirm the present-day stress regime as well as the mechanical and rheological",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "properties of the faults.",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Acknowledgements.",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "The first author declares financial support received for the",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "research, authorship and publication of this article. The study was funded by the Fed-",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "eral Ministry of Education and Research of Germany (BMBF) in the framework of",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "“GEOSTOR” (grant number 03F0893C and 03F0963B), one of the six research consor-",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "tia of the German Marine Research Alliance (DAM) research mission ”Marine carbon",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "sinks in decarboniztion pathways” (CDRmare). We also thank AspenTech for pro-",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "viding GOCAD/SKUA/EPOS Software Package licenses via the Academic Software",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Programme (https://www.aspentech. com/en/academicprogram) to support BGR as",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "a national geological service in non-profit work for the public and education. The",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "authors would like to also express our gratitude to Firdovsi Gazansade and Sebastian",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Bauer, whose insight and help have been instrumental for this study.",
+      "page": 27
+    },
+    {
+      "level": "H1",
+      "text": "References",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Ahlers S, R¨ockel L, Hergert T, et al (2022) The crustal stress field of Germany: a refined",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "prediction. Geothermal Energy 10(10). https://doi.org/10.1186/s40517-022-00222-6",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Amos CB, Audet P, Hammond WC, et al (2014) Uplift and seismicity driven by",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "groundwater depletion in central California. Nature 509:483–6. https://doi.org/10.",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "1038/nature13275",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Baldschuhn R, Best G, Binot F, et al (1994) Geotektonischer Atlas NW-Deutschland",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "1:300 000 – 1. Subcrop map of the Base Lower Cretaceous unconfomity: 5 S. Tech.",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "rep., Bundesanstalt f¨ur Geowissenschaften und Rohstoffe (BGR), Hannover",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Bense",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "F,",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "J¨ahne-Klingberg",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "F",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "(2017)",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Storage",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "potentials",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "in",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "the",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "deeper",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "sub-",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "surface of the Central German North Sea. Energy Procedia 114:4595–4622.",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "https://doi.org/https://doi.org/10.1016/j.egypro.2017.03.1580, URL https://www.",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "sciencedirect.com/science/article/pii/S1876610217317745, 13th International Con-",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "ference on Greenhouse Gas Control Technologies, GHGT-13, 14-18 November 2016,",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Lausanne, Switzerland",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Bense F, Deutschmann A, Dzieran L, et al (2022) Potenziale des unterirdischen",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Speicher- und Wirtschaftsraumes im Norddeutschen Becken (TUNB) - Phase",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "2: Parametrisierung. – Abschlussbericht. Tech. rep., Bundesanstalt f¨ur Geowis-",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "senschaften und Rohstoffe (BGR), Hannover",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "27",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Br¨uckner-R¨ohling S, Forsbach H, Kockel F (2005) The structural development of the",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "German North Sea sector during the Tertiary and the Quaternary. Zeitschrift der",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "Deutschen Gesellschaft f¨ur Geowissenschaften 156:341–355",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "Cheng Y, Liu W, Xu T, et al (2023) Seismicity induced by geological CO2 storage:",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "A review. Earth-Science Reviews 239:104369. https://doi.org/https://doi.org/10.",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "1016/j.earscirev.2023.104369",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "Clarke H, Eisner L, Styles P, et al (2014) Felt seismicity associated with shale",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "gas hydraulic fracturing: The first documented example in Europe. Geophys-",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "ical Research Letters 41(23):8308–8314. https://doi.org/https://doi.org/10.1002/",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "2014GL062047",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "Collettini C, Trippetta F (2007) A slip tendency analysis to test mechanical and",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "structural control on aftershock rupture planes. Earth and Planetary Science Letters",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "255(3):402–413. https://doi.org/https://doi.org/10.1016/j.epsl.2007.01.001",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "Diehl T, Kraft T, Kissling E, et al (2017) The induced earthquake sequence related",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "to the St. Gallen deep geothermal project (Switzerland): Fault reactivation and",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "fluid interactions imaged by microseismicity. Journal of Geophysical Research: Solid",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "Earth 122(9):7272–7290. https://doi.org/https://doi.org/10.1002/2017JB014473",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "Ehrhardt A, Barckhausen U, Behrens T, et al (2021) High Resolution Reflection Seis-",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "mic Imaging of the Cenozoic Barrier Structures of the West-Schleswig Block and",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "the Fluid Migration System of the blowout structure ’Figge Maar’, Cruise Report",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "No. MSM 97 (GPF 20-3 085), 13.11.2020-25.11.2020, Emden (Germany) – Emden",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "(Germany). Tech. rep., Bundesanstalt f¨ur Geowissenschaften und Rohstoffe (BGR),",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "Hannover, https://doi.org/https://doi.org/10.48433/cr msm97",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "Ellsworth WL (2013) Injection-induced earthquakes. Science 341(6142):1225942.",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "https://doi.org/10.1126/science.1225942",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "Fellgett MW, Kingdon A, Williams JD, et al (2018) Stress magnitudes across UK",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "regions: New analysis and legacy data across potentially prospective unconventional",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "resource areas. Marine and Petroleum Geology 97:24–31. https://doi.org/https://",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "doi.org/10.1016/j.marpetgeo.2018.06.016",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "Frohlich C, DeShon H, Stump B, et al (2016) A historical review of induced earth-",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "quakes in Texas. Seismological Research Letters 87(4):1022–1038. https://doi.org/",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "10.1785/0220160016",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "Fuhrmann A, Knopf S, Th¨ole H, et al (2024) CO2 storage potential of the Middle",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "Buntsandstein Subgroup - German sector of the North Sea. International Journal",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "of Greenhouse Gas Control 136:104175. https://doi.org/https://doi.org/10.1016/j.",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "ijggc.2024.104175",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "28",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "Gan W, Frohlich C (2013) Gas injection may have triggered earthquakes in the Cogdell",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "oil field, Texas. Proceedings of the National Academy of Sciences 110(47):18786–",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "18791. https://doi.org/10.1073/pnas.1311316110",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Giardini D (2009) Geothermal quake risks must be faced. Nature 462:848–9. https:",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "//doi.org/10.1038/462848a",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Gibowicz SJ (2009) Chapter 1 - Seismicity Induced by Mining: Recent Research. In:",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Advances in Geophysics, Advances in Geophysics, vol 51. Elsevier, p 1–53, https:",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "//doi.org/https://doi.org/10.1016/S0065-2687(09)05106-1",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "G¨unter L (2011) Erdbebenkatalog f¨ur deutschland mit randgebieten f¨ur die jahre 800",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "- 2008 (earthquake catalogue for germany and adjacent areas for the years 800 to",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "2008). Geologisches Jahrbuch E 59:1 – 198",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Goertz-Allmann BP, Langet N, Iranpour K, et al (2024) Effective microseismic",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "monitoring of the Quest CCS site, Alberta, Canada. International Journal of",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Greenhouse Gas Control 133:104100. https://doi.org/https://doi.org/10.1016/j.",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "ijggc.2024.104100",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Grigoli F, Cesca S, Priolo E, et al (2017) Current challenges in monitoring, discrim-",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "ination, and management of induced seismicity related to underground industrial",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "activities: A European perspective. Reviews of Geophysics 55(2):310–340. https:",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "//doi.org/https://doi.org/10.1002/2016RG000542",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Gr¨unthal G, Wahlstr¨om R (2003) An earthquake catalogue for central, northern and",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "northwestern Europe based on MW magnitudes. Scientific Technical Report STR",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "03:143. https://doi.org/https://doi.org/10.2312/GFZ.b103-030104",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Groß U (1986) Gaspotential Deutsche Nordsee – Die regionale Verteilung der seismis-",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "chen Anfangsgeschwindigkeiten in der Deutschen Nordsee. Tech. rep., Bundesanstalt",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "f¨ur Geowissenschaften und Rohstoffe (BGR), Hannover",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Guha S (2001) Induced Earthquakes. Springer Dordrecht, https://doi.org/https://doi.",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "org/10.1007/978-94-015-9452-3",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Heidbach O, Rajabi M, Cui X, et al (2018) The World Stress Map database release",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "2016: Crustal stress pattern across scales. Tectonophysics 744:484–498. https://doi.",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "org/https://doi.org/10.1016/j.tecto.2018.07.007",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Hough SE (2014) Earthquake intensity distributions: A new view. Bulletin of",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Earthquake Engineering 12:135–55. https://doi.org/10.1007/s10518-013-9573-x",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "IPCC (2005) Special Report on Carbon Dioxide Capture and Storage . Report,",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Intergovernmental Panel on Climate Change, URL https://www.ipcc.ch/report/",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "carbon-dioxide-capture-and-storage/",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "29",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Jackson M, Hudec M (2017) Salt tectonics: Principles and practice. Cambridge",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "University Press, https://doi.org/https://doi.org/10.1017/9781139003988",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Jaeger J, Cook N, Zimmerman R (2011) Fundamental of rock mechanics, 4 edn.",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Blackwell Publishing, Malden, MA",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Jaritz W, Best G, Hildebrand G, et al (1991) Regionale Analyse der seismischen",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Geschwindigkeiten in Nordwestdeutschland. Geologisches Jahrbuch Reihe E: 45:23–",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "57",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "J¨ahne-Klingberg F, Wolf M, Steuer S, et al (2014) Speicherpotenziale Deutsche",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Nordsee. Geopotenzial Deutsche Nordsee 110",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Kanamori H, Brodsky E (2004) The physics of earthquakes. Physics Today 54. https:",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "//doi.org/10.1088/0034-4885/67/8/R03",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Keranen",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "KM,",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Weingarten",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "M",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "(2018)",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Induced",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "seismicity.",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Annual",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Review",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "of",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Earth and Planetary Sciences 46:149–174. https://doi.org/https://doi.org/10.1146/",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "annurev-earth-082517-010054",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Keranen KM, Weingarten M, Abers GA, et al (2014) Sharp increase in central",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Oklahoma seismicity since 2008 induced by massive wastewater injection. Science",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "345(6195):448–451. https://doi.org/10.1126/science.1255802",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Kockel F (ed) (1995) Structural and Palaeogeographical Development of the Ger-",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "man North Sea Sector. Schweizerbart Science Publishers, Stuttgart, Germany,",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "URL",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "http://www.schweizerbart.de//publications/detail/isbn/9783443110260/",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Kockel Structural and Palaeogeographic, with contribution from R. Baldschuhn,",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "G. Best, F. Binot, U. Frisch, U. Gross, U. J¨urgens, H.-G. R¨ohling & S.",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Sattler-Kosinowski, S.",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Luu K, Schoenball M, Oldenburg CM, et al (2022) Coupled Hydromechanical Mod-",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "eling of Induced Seismicity From CO2 Injection in the Illinois Basin. Journal of",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Geophysical Research: Solid Earth 127(5):e2021JB023496. https://doi.org/https:",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "//doi.org/10.1029/2021JB023496",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Moeck I, Kwiatek G, Zimmermann G (2009) Slip tendency analysis, fault reacti-",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "vation potential and induced seismicity in a deep geothermal reservoir. Journal",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "of Structural Geology 31(10):1174–1182. https://doi.org/https://doi.org/10.1016/j.",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "jsg.2009.06.012",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Morawietz S, Heidbach O, Reiter K, et al (2020) An open-access stress magnitude",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "database for Germany and adjacent regions. Geothermal Energy 8(25):1777–1799.",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "https://doi.org/10.1186/s40517-020-00178-5",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Morris A, Ferrill DA, Henderson D (1996) Slip-tendency analysis and fault reacti-",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "vation. Geology 24(3):275–278. https://doi.org/10.1130/0091-7613(1996)024⟨0275:",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "30",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "STAAFR⟩2.3.CO;2",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "Natl. Res. Counc. (2013) Induced Seismicity Potential in Energy Technologies. The",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "National Academies Press, Washington, DC, https://doi.org/10.17226/13355",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "Noy D, Holloway S, Chadwick R, et al (2012) Modelling large-scale carbon dioxide",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "injection into the Bunter Sandstone in the UK Southern North Sea. International",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "Journal of Greenhouse Gas Control 9:220–233. https://doi.org/https://doi.org/10.",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "1016/j.ijggc.2012.03.011",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "Orlic B (2016) Geomechanical effects of CO2 storage in depleted gas reservoirs in",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "the Netherlands: Inferences from feasibility studies and comparison with aquifer",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "storage. Journal of Rock Mechanics and Geotechnical Engineering 8(6):846–859.",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "https://doi.org/https://doi.org/10.1016/j.jrmge.2016.07.003",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "Peters G (2007) Active tectonivs in the Upper Rhine Graben: Integration of paleo-",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "seismology, geomorphology and geomechanical modeling. PhD thesis, Amsterdam,",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "Vrije Univ.",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "Reyer D, Philipp SL (2014) Empirical relations of rock properties of outcrop and",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "core samples from the Northwest German Basin for geothermal drilling. Geother-",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "mal Energy Science 2(1):21–37. URL http://resolver.sub.uni-goettingen.de/purl?",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "gldocs-11858/6861",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "R¨ockel L, Ahlers S, M¨uller B, et al (2022) The analysis of slip tendency of major",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "tectonic faults in Germany. Solid Earth 13(6):1087–1105. https://doi.org/10.5194/",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "se-13-1087-2022",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "Rutqvist J, Rinaldi AP, Cappa F, et al (2016) Fault activation and induced seismicity",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "in geological carbon storage – Lessons learned from recent modeling studies. Journal",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "of Rock Mechanics and Geotechnical Engineering 8(6):789–804. https://doi.org/",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "https://doi.org/10.1016/j.jrmge.2016.09.001",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "Samuelson J, Spiers CJ (2012) Fault friction and slip stability not affected by CO2 stor-",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "age: Evidence from short-term laboratory experiments on North Sea reservoir sand-",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "stones and caprocks. International Journal of Greenhouse Gas Control 11:S78–S90.",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "https://doi.org/https://doi.org/10.1016/j.ijggc.2012.09.018, cATO: CCS Research",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "in the Netherlands",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "Scholz CH (1998) Earthquakes and friction laws. Nature 391:37 – 42. https://doi.org/",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "https://doi.org/10.1038/34097",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "Scholz CH (2019) The Mechanics of Earthquakes and Faulting, 3rd edn. Cambridge",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "University Press, https://doi.org/https://doi.org/10.1017/9781316681473",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "Stork A, Nixon C, Hawkes C, et al (2018) Is CO2 injection at Aquistore aseismic?",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "A combined seismological and geomechanical study of early injection operations.",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "31",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "International Journal of Greenhouse Gas Control 75:107–124. https://doi.org/https:",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "//doi.org/10.1016/j.ijggc.2018.05.016",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Th¨ole H, Gaedicke C, Kuhlmann G, et al (2014) Late Cenozoic sedimentary evolu-",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "tion of the German North Sea – A seismic stratigraphic approach. Newsletters on",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Stratigraphy 47:299–329",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Trifu C (2002) The Mechanism of Induced Seismicity. Pageoph Topical Volumes,",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Birkh¨auser Basel, https://doi.org/https://doi.org/10.1007/978-3-0348-8179-1",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Vadacca L, Rossi D, Scotti A, et al (2021) Slip Tendency Analysis, Fault Reactiva-",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "tion Potential and Induced Seismicity in the Val d’Agri Oilfield (Italy). Journal",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "of Geophysical Research: Solid Earth 126(1):2019JB019185. https://doi.org/https:",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "//doi.org/10.1029/2019JB019185",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Verdon J, Stork A (2016) Carbon capture and storage, geomechanics and induced",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "seismic activity. Journal of Rock Mechanics and Geotechnical Engineering 8(6):928–",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "935. https://doi.org/https://doi.org/10.1016/j.jrmge.2016.06.004",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Verdon J, Kendall JM, White D, et al (2011) Linking microseismic event observations",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "with geomechanical models to minimise the risks of storing CO2 in geological forma-",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "tions. Earth and Planetary Science Letters 305(1):143–152. https://doi.org/https:",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "//doi.org/10.1016/j.epsl.2011.02.048",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Wallmann K (2023) CCS (Carbon Capture and Storage): CO2-Speicherung unter der",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Nordsee. In: L. LJ, Graßl H, Breckle S, et al (eds) Warnsignal-Klima, pp 120–125,",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "https://doi.org/http://doi.org/10.25592/uhhfdm.12816",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Weemstra C, Kettlety T, K¨uhn D, et al (2022) Integrated earthquake locations",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "and magnitudes plus focal mechanisms for the north sea & construction of a",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "velocity model. Tech. rep., Delft University of Technology, NORSAR, GEUS, Uni-",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "versity of Oxford, BGS, Equinor, Shell, BP, URL https://www.sharp-storage-act.",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "eu/publications--results/",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "White A, Traugott M, Swarbrick R (2002) The use of leak-off tests as means of pre-",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "dicting minimum in-situ stress. Petroleum Geoscience 8:189–193. https://doi.org/",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "10.1144/petgeo.8.2.189",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "White J, Foxall W (2016) Assessing induced seismicity risk at CO2 storage projects:",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Recent progress and remaining challenges. International Journal of Greenhouse Gas",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Control 49:413–424. https://doi.org/https://doi.org/10.1016/j.ijggc.2016.03.021",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "32",
+      "page": 32
+    }
+  ],
+  "metadata": {
+    "filename": "sample.pdf",
+    "file_hash": "566477453783cd19574c9f35afd2d989f2274b7bc087821175abc1e1d9036e0d",
+    "processing_time": 0.8012316226959229,
+    "round": "1A"
+  }
+}
