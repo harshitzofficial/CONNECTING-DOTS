@@ -1,7 +1,6 @@
 # Adobe "Connecting the Dots" Hackathon Solution
 **Intelligent Document Insight Engine for PDF Processing and Analysis**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white)](https://www.docker.com/)
 [![Python](https://img.shields.io/badge/python-v3.10+-blue.svg)](https://www.python.org/downloads/release/python-3100/)
 
@@ -15,13 +14,15 @@ This solution is designed for the **Adobe India Hackathon 2025 "Connecting the D
 - **Performance**: Process 50-page PDFs under 10 seconds (1A) and 60 seconds (1B)
 - **Constraints**: CPU-only, offline execution, Docker containerized
 
-[image:1]
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/381b2aa2-a7e6-409d-8a6c-44aa30fd7a6c" />
+
 
 ## 📁 Project Structure
 
 The project follows a clean, hackathon-compliant structure:
 
-[image:2]
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/f99e6f4c-2b70-4857-80f1-00a860a1cc85" />
+
 
 ```
 connecting-dots/
@@ -43,7 +44,8 @@ connecting-dots/
 
 Before getting started, ensure you have the following installed:
 
-[image:5]
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/002b8cf9-3a60-43a5-8be2-dd544524fb9f" />
+
 
 **System Requirements:**
 - **Docker Desktop** (Version 20.10+)
@@ -79,7 +81,8 @@ Before getting started, ensure you have the following installed:
 
 ### Step 3: Build the Docker Image
 
-[image:3]
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/d21783b6-47d7-4c0a-b6bb-578b48a96192" />
+
 
 ```bash
 # Build the optimized hackathon-compliant image
@@ -116,13 +119,15 @@ docker run --rm \
   connecting-dots --mode 1B --persona "Investment Analyst" --job "Analyze revenue trends"
 ```
 
-[image:6]
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/44fce126-c553-4e15-88b3-beaf7d014981" />
+
 
 ## 📊 Output Formats
 
 ### Round 1A Output (filename.json)
 
-[image:4]
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/c266b62a-ef32-4e2b-ba8f-bb041a9ae8e5" />
+
 
 ```json
 {
@@ -373,9 +378,6 @@ This solution is optimized for the Adobe India Hackathon 2025. For improvements:
 4. Ensure hackathon compliance
 5. Submit a pull request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🏅 Acknowledgments
 
@@ -383,17 +385,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **PyMuPDF** for excellent PDF processing capabilities  
 - **Sentence Transformers** for lightweight embedding models
 - **Docker** for containerization platform
-
----
-
-## 🆘 Support
-
-If you encounter issues:
-
-1. **Check the troubleshooting section** above
-2. **Verify Docker installation** and configuration
-3. **Ensure PDF files** are properly formatted and ≤50 pages
-4. **Review logs** in the output directory
-5. **Test with sample PDFs** first
-
-**Good luck with your hackathon submission! 🚀**
